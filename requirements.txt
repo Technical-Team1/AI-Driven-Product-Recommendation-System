@@ -1,7 +1,0 @@
-spark
-azure-storage-blob
-numpy
-tensorflow
-streamlit
-albumentations
-annoy
