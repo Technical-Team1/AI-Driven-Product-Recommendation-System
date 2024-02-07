@@ -18,17 +18,3 @@ A docker image of the application is published on docker-hub for convenience and
    
    ```docker run -p8080:80 rajarshi13g/image-recommendation```
 4. Open a browser window and browse to this address ```localhost:8080```.
-
-## Run locally without docker
-1. Clone this repo.
-   
-   ```git clone https://github.com/RajarshiGO/product_image_recommendation_app```
-2. Open a termial and change the working directory to the cloned repository.
-   
-   ```cd product_image_recommendation_app```
-3. Install the dependecies through ```pip```. Make sure to install ```pip``` beforehand.
-   
-   ```pip install -r requirements.txt```
-4. Type the command below to launch the app.
-   
-   ```streamlit run app.py```
